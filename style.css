@@ -3,3 +3,55 @@
   padding: 0;
   border: 0;
 }
+body {
+  background: black;
+  /*text-align: center;*/
+  border: 2px solid black;
+  color: white;
+}
+h2 {
+  color: blueviolet;
+}
+header {
+  padding: 100px;
+  display: flex;
+}
+nav {
+  justify-content: space-between;
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+}
+nav ul {
+  padding: 0;
+  list-style: none;
+  gap: 20px;
+  display: flex;
+}
+ul a {
+  color: white;
+  text-decoration: none;
+}
+#head {
+  padding: 30px;
+  font: 100px;
+}
+.about {
+  padding: 30px;
+}
+#skill {
+  padding: 30px;
+}
+section {
+  padding: 30px;
+}
+img {
+  width: 200px;
+}
+#Contact {
+  padding: 30px;
+}
+footer {
+  font-size: large;
+  color: brown;
+}
