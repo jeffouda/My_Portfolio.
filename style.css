@@ -3,7 +3,6 @@
   padding: 0;
   border: 0;
 }
-
 body {
   background: black;
   /*text-align: center;*/
@@ -34,7 +33,7 @@ ul a {
   color: white;
   text-decoration: none;
 }
-#head {
+#introduction {
   padding: 30px;
   font: 100px;
 }
