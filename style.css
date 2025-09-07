@@ -29,11 +29,20 @@ nav ul {
   gap: 20px;
   display: flex;
 }
-ul a {
-  color: white;
+nav a {
+  color: green;
   text-decoration: none;
+  padding: 8px 12px;
+  display: inline-block;
+  transition: 0.3s;
 }
-#introduction {
+nav a:hover {
+  /*background: maroon;
+  color: white;*/
+  transform: scale(1.1);
+}
+
+*/ #introduction {
   padding: 30px;
   font: 100px;
 }
