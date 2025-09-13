@@ -4,10 +4,10 @@
   border: 0;
 }
 body {
-  background: black;
+  background: violet;
   /*text-align: center;*/
   border: 2px solid black;
-  color: white;
+  color: #1f2937;
 }
 
 h2 {
@@ -30,27 +30,41 @@ nav ul {
   display: flex;
 }
 nav a {
-  color: green;
+  color: #0ea5a0;
   text-decoration: none;
   padding: 8px 12px;
   display: inline-block;
   transition: 0.3s;
-}
+} /*--hover effect--*/
 nav a:hover {
   /*background: maroon;
   color: white;*/
   transform: scale(1.1);
 }
 
-*/ #introduction {
-  padding: 30px;
-  font: 100px;
+#introduction {
+  padding: 20px;
+  color: brown;
+  border: 2px solid black;
+  margin: 40px;
+  width: 200px;
+  background-color: green;
 }
 .about {
-  padding: 30px;
+  padding: 20px;
+  border: 9px solid gray;
+  width: 600px;
+  margin: 70px;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 500;
 }
 #skill {
   padding: 30px;
+  border: 2px solid blue;
+  width: 600px;
+  /*display: flex;*/
+  justify-content: space-around;
 }
 section {
   padding: 30px;
