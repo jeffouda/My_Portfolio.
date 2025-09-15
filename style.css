@@ -58,14 +58,27 @@ nav a:hover {
   border-radius: 15px;
   font-size: 20px;
   font-weight: 500;
+  z-index: 0;
+  transition: 0.3s;
+}
+.about:hover {
+  transform: scale(1.1);
+  z-index: 10;
 }
 #skill {
   padding: 30px;
-  border: 2px solid blue;
+  border: 5px solid blue;
   width: 600px;
-  /*display: flex;*/
-  justify-content: space-around;
+  /*display: flexbox;*/
+  border-radius: 10px;
+  margin: 200px;
+  margin-top: 45px;
 }
+/*.techno {
+  color: wheat;
+  border: 2px solid white;
+}*/
+
 section {
   padding: 30px;
 }
